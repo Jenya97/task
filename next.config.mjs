@@ -22,8 +22,8 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  basePath: '/task',
-  assetPrefix: '/task',
+  basePath: 'task', // Change to match your GitHub Pages setup
+  assetPrefix: 'task', // Same as above
 };
 
 export default nextConfig;
