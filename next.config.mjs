@@ -12,6 +12,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Helps with image handling in static exports
   },
+    sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
    basePath: 'task', // Replace with your GitHub repository name
   assetPrefix: 'task'
 };
